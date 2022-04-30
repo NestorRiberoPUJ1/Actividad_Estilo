@@ -1,0 +1,42 @@
+.contenedor{
+    background-color: lightblue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegador{
+border: 4px solid red;
+flex: 10;
+}
+
+.contenido{
+    border: 4px solid purple;
+    flex:90;
+    display: flex;
+}
+
+.mensajes{
+    background-color: burlywood;
+    flex: 10;
+}
+
+.muro{
+    background-color: darkseagreen;
+    flex: 70;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+}
+
+.noticias{
+    background-color: hotpink;
+    flex: 20;
+}
+
+.separador{
+    height: 1px;
+    background-color: gray;
+    flex:1;
+}

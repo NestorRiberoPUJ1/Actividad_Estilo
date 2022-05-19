@@ -1,0 +1,30 @@
+
+.contenedor{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 4px 0px 4px 0px;
+
+}
+
+.btn-login{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 16px 4px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+
+.btn-login:hover{
+    background-color: red;
+}
+
+.btn-login img{
+    height: 20px;
+    margin-right: 8px;
+}
+

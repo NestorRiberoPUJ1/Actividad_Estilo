@@ -1,0 +1,16 @@
+.imgPeq{
+    height: 200px;
+    transition-duration: 500ms;
+}
+
+.imgGra{
+    height: 400px;
+    transition-duration: 500ms;
+}
+
+
+
+.hide{
+    display:none;
+    transition-duration: 1s;
+}

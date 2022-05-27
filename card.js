@@ -12,14 +12,14 @@ perrito.addEventListener("mouseleave", () => {
 })
 
 var btnReset = document.getElementById("btnReset");
+var welcome = document.getElementById("welcome");
 
 btnReset.addEventListener("click", () => {
-    var password = document.getElementById("password");
-    password.value = "";
+    welcome.classList.toggle("hide");
 })
 
 
-var welcome = document.getElementById("welcome");
+
 
 welcome.addEventListener("click", () => {
     perrito.classList.remove("imgPeq");
@@ -28,8 +28,6 @@ welcome.addEventListener("click", () => {
 })
 
 welcome.addEventListener("dblclick", () => {
-    perrito.classList.remove("imgGra");
-    perrito.classList.add("imgPeq");
-    perrito.classList.remove("hide");
+
 
 })

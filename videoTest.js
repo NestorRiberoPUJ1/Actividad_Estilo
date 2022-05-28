@@ -2,23 +2,31 @@
 var videoPerrito = document.getElementById("videoPerrito");
 var btnPlay = document.getElementById("btnPlay");
 
-videoPerrito.play();
-videoPerrito.pause();
-videoPerrito.currentTime = 0;
 
-var isPlaying = false;
 
 btnPlay.addEventListener("click", () => {
     videoPerrito.play();
 })
 
 videoPerrito.addEventListener("click", () => {
-    if (!isPlaying) {
+    if (videoPerrito.paused == true) {
         videoPerrito.play();
-        isPlaying=!isPlaying;
     }
-    else if (isPlaying) {
+    else if (videoPerrito.paused == false) {
         videoPerrito.pause();
-        isPlaying=!isPlaying;
+    }
+})
+
+
+var audioPrueba = document.getElementById("audioPrueba");
+
+var btnPlayAudio = document.getElementById("btnPlayAudio");
+
+btnPlayAudio.addEventListener("click", () => {
+    if (audioPrueba.paused === true) {
+        audioPrueba.play();
+    }
+    else if (audioPrueba.paused == false) {
+        audioPrueba.pause();
     }
 })
